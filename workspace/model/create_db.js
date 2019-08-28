@@ -2580,31 +2580,31 @@ var students=[
     "name": "王雅柔",
     "degree": 106,
     "s_type": 4,
-    "research_topic": "修課與論文研究中",
-    "status": 0,
+    "research_topic": "聊天機器人結合關懷行為之實踐探討",
+    "status": 1,
     "email": "M10609211@mail.ntust.edu.tw",
     "created_at": "2017-08-30 04:02:09.565",
     "updated_at": "2017-08-30 04:02:41.429",
-    "graduated_num": 0
+    "graduated_num": 65
   },
   {
     "id": 178,
     "name": "凃美綺",
     "degree": 106,
     "s_type": 4,
-    "research_topic": "修課與論文研究中",
-    "status": 0,
+    "research_topic": "SVM、RF 與 MLP 應用於腦中風預測之比較研究",
+    "status": 1,
     "email": "M10609213@mail.ntust.edu.tw",
     "created_at": "2017-08-30 04:04:01.805",
     "updated_at": "2017-08-30 05:05:00.844",
-    "graduated_num": 0
+    "graduated_num": 66
   },
   {
     "id": 179,
     "name": "張元瀚",
     "degree": 106,
     "s_type": 4,
-    "research_topic": "修課與論文研究中",
+    "research_topic": "出國交換與論文研究中",
     "status": 0,
     "email": "M10609212@mail.ntust.edu.tw",
     "created_at": "2017-10-30 19:12:18.376",
@@ -2616,12 +2616,12 @@ var students=[
     "name": "陳意淇",
     "degree": 106,
     "s_type": 4,
-    "research_topic": "修課與論文研究中",
-    "status": 0,
+    "research_topic": "網頁與APP設計模式之品質評估研究",
+    "status": 1,
     "email": "M10609214@mail.ntust.edu.tw",
     "created_at": "2017-08-31 03:29:57.007",
     "updated_at": "2017-08-31 03:30:08.787",
-    "graduated_num": 0
+    "graduated_num": 67
   },
   {
     "id": 181,
@@ -2688,12 +2688,12 @@ var students=[
     "name": "徐瑋鴻",
     "degree": 107,
     "s_type": 2,
-    "research_topic": "修課與論文研究中",
-    "status": 0,
+    "research_topic": "敏捷管理工具改善方向之研究",
+    "status": 1,
     "email": "",
     "created_at": "2017-08-31 03:29:57.007",
     "updated_at": "2017-08-31 03:30:08.787",
-    "graduated_num": 0
+    "graduated_num": 101
   },
   {
     "id": 187,
@@ -2712,24 +2712,24 @@ var students=[
     "name": "貴駿騏",
     "degree": 107,
     "s_type": 2,
-    "research_topic": "修課與論文研究中",
-    "status": 0,
+    "research_topic": "精進政府機關Web應用程式 安全控制措施之研究",
+    "status": 1,
     "email": "",
     "created_at": "2017-08-31 03:29:57.007",
     "updated_at": "2017-08-31 03:30:08.787",
-    "graduated_num": 0
+    "graduated_num": 102
   },
   {
     "id": 189,
     "name": "李弘文",
     "degree": 107,
     "s_type": 2,
-    "research_topic": "修課與論文研究中",
-    "status": 0,
+    "research_topic": "精進政府機關Web應用程式 安全控制措施之研究",
+    "status": 1,
     "email": "",
     "created_at": "2017-08-31 03:29:57.007",
     "updated_at": "2017-08-31 03:30:08.787",
-    "graduated_num": 0
+    "graduated_num": 103
   },
   {
     "id": 190,
@@ -2754,7 +2754,45 @@ var students=[
     "created_at": "2017-08-31 03:29:57.007",
     "updated_at": "2017-08-31 03:30:08.787",
     "graduated_num": 100
+  },
+  {
+    "id": 192,
+    "name": "蕭妤庭",
+    "degree": 108,
+    "s_type": 4,
+    "research_topic": "修課與論文研究中",
+    "status": 0,
+    "email": "M10609212@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2017-08-31 03:30:08.787",
+    "graduated_num": 0
+  },
+  {
+    "id": 193,
+    "name": "謝宗翰",
+    "degree": 108,
+    "s_type": 4,
+    "research_topic": "修課與論文研究中",
+    "status": 0,
+    "email": "M10609214@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2017-08-31 03:30:08.787",
+    "graduated_num": 0
+  },
+  {
+    "id": 193,
+    "name": "黃韋期",
+    "degree": 108,
+    "s_type": 4,
+    "research_topic": "修課與論文研究中",
+    "status": 0,
+    "email": "M10609205@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2017-08-31 03:30:08.787",
+    "graduated_num": 0
   }
+
+
 
 ];
 const setUpStudents = function(callback) {
