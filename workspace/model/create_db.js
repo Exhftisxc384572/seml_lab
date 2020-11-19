@@ -3,6 +3,26 @@ var config = require('../config');
 
 
 var plans = [
+  {
+     "id":47,
+     "name":"教學實踐研究計畫整合同步與非同步問題導向學習教學機器人對程式設計教學成效之研究",
+     "role":"主持人",
+     "period":"109年8月1日至110年7月31日",
+     "string":"",
+     "sponsor":"教育部                              ",
+     "created_at":"2017-03-03T19:26:05.123Z",
+     "updated_at":"2017-03-03T19:26:05.123Z"
+  },
+  {
+     "id":46,
+     "name":"網頁設計模式績效評量與選擇決策之研究",
+     "role":"主持人",
+     "period":"109年8月1日至111年7月31日",
+     "string":"科技部",
+     "sponsor":"科技部專題計畫                              ",
+     "created_at":"2017-03-03T19:26:05.123Z",
+     "updated_at":"2017-03-03T19:26:05.123Z"
+  },
     {
       "id":45,
       "name":"敏捷軟體開發核心價值、原則、實務方法與績效間之關連性研究 ",
@@ -597,26 +617,14 @@ var students=[
   },
   {
     "id": 12,
-    "name": "吳柏翰",
+    "name": "Linus Yulianus Palopak",
     "degree": 0,
     "s_type": 0,
     "research_topic": "修課與論文研究中",
     "status": 0,
-    "email": "dsjerry2017@gmail.com",
+    "email": "",
     "created_at": "2017-03-01 10:49:04.741",
     "updated_at": "2017-03-15 10:38:25.229",
-    "graduated_num": 0
-  },
-  {
-    "id": 13,
-    "name": "楊政豐",
-    "degree": 0,
-    "s_type": 0,
-    "research_topic": "修課與論文研究中",
-    "status": 0,
-    "email": "garyy@mail2000.com.tw",
-    "created_at": "2017-03-01 10:49:15.337",
-    "updated_at": "2017-03-01 10:50:47.714",
     "graduated_num": 0
   },
   {
@@ -629,18 +637,6 @@ var students=[
     "email": "",
     "created_at": "2017-03-01 10:49:38.562",
     "updated_at": "2017-03-01 10:51:31.680",
-    "graduated_num": 0
-  },
-  {
-    "id": 15,
-    "name": "鍾岳勳",
-    "degree": 0,
-    "s_type": 0,
-    "research_topic": "修課與論文研究中",
-    "status": 0,
-    "email": "yueshin@cc.shu.edu.tw",
-    "created_at": "2017-03-01 10:48:50.698",
-    "updated_at": "2017-03-01 10:50:26.794",
     "graduated_num": 0
   },
   {
@@ -2604,12 +2600,12 @@ var students=[
     "name": "張元瀚",
     "degree": 106,
     "s_type": 4,
-    "research_topic": "出國交換與論文研究中",
-    "status": 0,
+    "research_topic": "室內定位技術於不同場域之評估研究",
+    "status": 1,
     "email": "M10609212@mail.ntust.edu.tw",
     "created_at": "2017-10-30 19:12:18.376",
     "updated_at": "2017-10-30 19:12:18.376",
-    "graduated_num": 0
+    "graduated_num": 67
   },
   {
     "id": 180,
@@ -2621,55 +2617,79 @@ var students=[
     "email": "M10609214@mail.ntust.edu.tw",
     "created_at": "2017-08-31 03:29:57.007",
     "updated_at": "2017-08-31 03:30:08.787",
-    "graduated_num": 67
+    "graduated_num": 68
+  },
+  {
+    "id": 194,
+    "name": "Valeria Ctnthia Dewi",
+    "degree": 107,
+    "s_type": 4,
+    "research_topic": "Analysis on Correlations among Project ECT Performances, Agile Core Values, Principles, and Practices",
+    "status": 1,
+    "email": "",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2017-08-31 03:30:08.787",
+    "graduated_num": 69
+  },
+  {
+    "id": 195,
+    "name": "Wahyu Tri Anggoro",
+    "degree": 107,
+    "s_type": 4,
+    "research_topic": "基於CMMI-DEV V2.0軟體流程改善之個案研究",
+    "status": 1,
+    "email": "",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2017-08-31 03:30:08.787",
+    "graduated_num": 70
   },
   {
     "id": 181,
     "name": "蔣曜安",
     "degree": 107,
     "s_type": 4,
-    "research_topic": "修課與論文研究中",
-    "status": 0,
+    "research_topic": "敏捷Scrum流程管理工具開發設計之研究",
+    "status": 1,
     "email": "M10709208@mail.ntust.edu.tw",
     "created_at": "2017-08-31 03:29:57.007",
     "updated_at": "2017-08-31 03:30:08.787",
-    "graduated_num": 0
+    "graduated_num": 71
   },
   {
     "id": 182,
     "name": "江秉叡",
     "degree": 107,
     "s_type": 4,
-    "research_topic": "修課與論文研究中",
-    "status": 0,
+    "research_topic": "合作學習教學輔助系統開發設計之研究",
+    "status": 1,
     "email": "M10709211@mail.ntust.edu.tw",
     "created_at": "2017-08-31 03:29:57.007",
     "updated_at": "2017-08-31 03:30:08.787",
-    "graduated_num": 0
+    "graduated_num": 72
   },
   {
     "id": 183,
     "name": "黃品瑄",
     "degree": 107,
     "s_type": 4,
-    "research_topic": "修課與論文研究中",
-    "status": 0,
+    "research_topic": "軟體遊戲化機制影響使用者心理感受與使用意圖之研究—以Line為例",
+    "status": 1,
     "email": "M10709209@mail.ntust.edu.tw",
     "created_at": "2017-08-31 03:29:57.007",
     "updated_at": "2017-08-31 03:30:08.787",
-    "graduated_num": 0
+    "graduated_num": 73
   },
   {
     "id": 184,
     "name": "彭德馨",
     "degree": 107,
     "s_type": 4,
-    "research_topic": "修課與論文研究中",
-    "status": 0,
+    "research_topic": "使用者介面設計模式績效評估與選擇決策之研究",
+    "status": 1,
     "email": "M10709213@mail.ntust.edu.tw",
     "created_at": "2017-08-31 03:29:57.007",
     "updated_at": "2017-08-31 03:30:08.787",
-    "graduated_num": 0
+    "graduated_num": 74
   },
   {
     "id": 185,
@@ -2684,16 +2704,52 @@ var students=[
     "graduated_num": 0
   },
   {
-    "id": 186,
-    "name": "徐瑋鴻",
-    "degree": 107,
-    "s_type": 2,
-    "research_topic": "敏捷管理工具改善方向之研究",
-    "status": 1,
-    "email": "",
+    "id": 211,
+    "name": "謝宗翰",
+    "degree": 108,
+    "s_type": 4,
+    "research_topic": "修課與論文研究中",
+    "status": 0,
+    "email": "M10609214@mail.ntust.edu.tw",
     "created_at": "2017-08-31 03:29:57.007",
     "updated_at": "2017-08-31 03:30:08.787",
-    "graduated_num": 101
+    "graduated_num": 0
+  },
+  {
+    "id": 212,
+    "name": "黃韋期",
+    "degree": 108,
+    "s_type": 4,
+    "research_topic": "修課與論文研究中",
+    "status": 0,
+    "email": "M10609205@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2017-08-31 03:30:08.787",
+    "graduated_num": 0
+  },
+  {
+    "id": 213,
+    "name": "蕭妤庭",
+    "degree": 108,
+    "s_type": 4,
+    "research_topic": "修課與論文研究中",
+    "status": 0,
+    "email": "M10909217@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2017-08-31 03:30:08.787",
+    "graduated_num": 0
+  },
+  {
+    "id": 215,
+    "name": "徐慧娟",
+    "degree": 109,
+    "s_type": 4,
+    "research_topic": "修課與論文研究中",
+    "status": 0,
+    "email": "M10909216@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2017-08-31 03:30:08.787",
+    "graduated_num": 0
   },
   {
     "id": 187,
@@ -2706,6 +2762,18 @@ var students=[
     "created_at": "2017-08-31 03:29:57.007",
     "updated_at": "2017-08-31 03:30:08.787",
     "graduated_num": 98
+  },
+  {
+    "id": 214,
+    "name": "黃郁馨",
+    "degree": 109,
+    "s_type": 4,
+    "research_topic": "修課與論文研究中",
+    "status": 0,
+    "email": "M10909203@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2017-08-31 03:30:08.787",
+    "graduated_num": 0
   },
   {
     "id": 188,
@@ -2756,44 +2824,125 @@ var students=[
     "graduated_num": 100
   },
   {
-    "id": 192,
-    "name": "蕭妤庭",
+    "id": 196,
+    "name": "李明揮",
     "degree": 108,
-    "s_type": 4,
-    "research_topic": "修課與論文研究中",
-    "status": 0,
-    "email": "M10609212@mail.ntust.edu.tw",
+    "s_type": 2,
+    "research_topic": "全球零時差的一日結帳系統 C銀行海外分行資訊系統建置個案",
+    "status": 1,
+    "email": "M10709902@mail.ntust.edu.tw",
     "created_at": "2017-08-31 03:29:57.007",
     "updated_at": "2017-08-31 03:30:08.787",
-    "graduated_num": 0
+    "graduated_num": 104
   },
   {
-    "id": 193,
-    "name": "謝宗翰",
+    "id": 197,
+    "name": "張建勳",
     "degree": 108,
-    "s_type": 4,
-    "research_topic": "修課與論文研究中",
-    "status": 0,
-    "email": "M10609214@mail.ntust.edu.tw",
+    "s_type": 2,
+    "research_topic": "資訊軟體公司的創新之路",
+    "status": 1,
+    "email": "M10709903@mail.ntust.edu.tw",
     "created_at": "2017-08-31 03:29:57.007",
     "updated_at": "2017-08-31 03:30:08.787",
-    "graduated_num": 0
+    "graduated_num": 105
   },
   {
-    "id": 193,
-    "name": "黃韋期",
+    "id": 198,
+    "name": "鍾明君",
     "degree": 108,
+    "s_type": 2,
+    "research_topic": "雲端服務對系統整合商的衝擊與轉變",
+    "status": 1,
+    "email": "M10709904@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2017-08-31 03:30:08.787",
+    "graduated_num": 106
+  },
+  {
+    "id": 199,
+    "name": "蕭鴻達",
+    "degree": 108,
+    "s_type": 2,
+    "research_topic": "軟硬兼施-公司成長策略的多面向發展",
+    "status": 1,
+    "email": "M10709909@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2017-08-31 03:30:08.787",
+    "graduated_num": 107
+  },
+  {
+    "id": 200,
+    "name": "黃慧菁",
+    "degree": 108,
+    "s_type": 2,
+    "research_topic": "小型跨境電商友威國際的創業之路",
+    "status": 1,
+    "email": "M10709915@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2017-08-31 03:30:08.787",
+    "graduated_num": 108
+  },
+  {
+    "id": 201,
+    "name": "楚湘萍",
+    "degree": 108,
+    "s_type": 2,
+    "research_topic": "運用資料探勘技術分析MRO電子採購資料",
+    "status": 1,
+    "email": "m10709918@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2017-08-31 03:30:08.787",
+    "graduated_num": 109
+  },
+  {
+    "id": 202,
+    "name": "林穎志",
+    "degree": 108,
+    "s_type": 2,
+    "research_topic": "小可樂果劇團的誕生與成長",
+    "status": 1,
+    "email": "M10709920@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2017-08-31 03:30:08.787",
+    "graduated_num": 110
+  },
+  {
+    "id": 203,
+    "name": "潘妍如",
+    "degree": 108,
+    "s_type": 2,
+    "research_topic": "走向行動化—以3C零售業行動裝置專案為例",
+    "status": 1,
+    "email": "M10709925@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2017-08-31 03:30:08.787",
+    "graduated_num": 111
+  },
+  {
+    "id": 204,
+    "name": "黃文霖",
+    "degree": 108,
+    "s_type": 2,
+    "research_topic": "產銷合併的競爭優勢 – 以新富利為例",
+    "status": 1,
+    "email": "M10709927@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2017-08-31 03:30:08.787",
+    "graduated_num": 112
+  },
+  {
+    "id": 216,
+    "name": "段芸芸",
+    "degree": 109,
     "s_type": 4,
     "research_topic": "修課與論文研究中",
     "status": 0,
-    "email": "M10609205@mail.ntust.edu.tw",
+    "email": "M10909217@mail.ntust.edu.tw",
     "created_at": "2017-08-31 03:29:57.007",
     "updated_at": "2017-08-31 03:30:08.787",
     "graduated_num": 0
   }
-
-
-
 ];
 const setUpStudents = function(callback) {
     var client = new pg.Client(config.db);

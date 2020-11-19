@@ -114,50 +114,167 @@
         </div>
 
 
-    <div class="container section plan">
-      <div class="row" >
-        <div class="col-md-12 profile-details my-custom-width">
-          <div class="details-title">
-            <h3><span> 研究領域 Research Scope </span></h3>
-          </div>
-
-            <div class="scope-details">
-                <ol class="rectangle-list disabled">
-                    <li><a href="http://huang.cs.ntust.edu.tw/researchscope">【軟體工程】</a>
-                        <ol>流程管理與改善、能力成熟度整合模式(CMMI)、品質管理、時程管理、風險管理、專案成本/工時/時間預估、軟體委外管理等（適合未來職涯規劃為軟體專案經理PM、CIO）。</ol>
-                    </li>
-                    <li><a href="http://huang.cs.ntust.edu.tw/researchscope">【軟體專案管理】</a>
-                        <ol>應用軟體系統開發、網頁設計模式(RWD, AWD, m.dot, SAPP)、需求分析、系統分析與設計、測試、驗證與確認等（適合未來職涯規劃為軟體工程師、設計師、分析師、架構師、CTO、CIO）。</ol>
-                    </li>
-                    <li><a href="http://huang.cs.ntust.edu.tw/researchscope">【敏捷方法】</a>
-                        <ol>Agile, SCRUM, Lean, Kanban 等應用在快速產品/服務之開發與管理（適合未來職涯規劃為產品經理PM、部門主管、CEO）。</ol>
-                    </li>
-                    <li><a href="http://huang.cs.ntust.edu.tw/researchscope">【資訊服務創新應用】</a>
-                        <ol>以資訊科技（人工智慧AI、物聯網IoT、區塊鏈BlockChain、雲端科技Cloud Technology等）與資料分析技術（商業智慧BI、統計分析、資料探勘、機器學習ML等）主導/賦能enabled之流程改造與數位轉型之新興商業模式或智能企業（平台經濟、數位學習、科技金融、智能工廠、智慧家庭、智慧城市、科技醫療等）（適合未來職涯規劃為至資策會、工研院、管理顧問公司、四大會計事務所等之企業企劃、輔導與顧問）。</ol>
-                    </li>
-                    <li><a href="http://huang.cs.ntust.edu.tw/researchscope">【其它相關議題】</a>
-                        <ol>軟體群眾外包(Software Crowdsourcing)、軟體遊戲化(Software Gamification)、資訊圖像化(Information Graphics)、流程自動機器人(RPA)、DevOps、ChatBot等。</ol>
-                    </li>
-                </ol>
-            </div>
-
-        </div>
-      </div>
-    </div>
-
-
-    <div class="footer ">
-      <div class="container section">
-         ©Copyright 2018 Software Engineering and Management Research Center 軟體工程與管理研究中心,all rights reserved.
-         <div class="text-right">
-            <a href="./sign_in.html">登入</a>
+ <div class="container section plan"  id="studentList">
+   <div class="row">
+       <div class="col-md-12 title-details">
+         <div class="details-title">
+           <h3><span>已畢業研究生</span></h3>
          </div>
+       </div>
+     </div>
+     <div class="list">
+       <ul class="nav nav-tabs">
+         <li class="rounded active">
+           <a data-toggle="tab" href="/students#tab-alumni-dr">
+             <i class="fa fa-user"></i>
+             博班</a>
+         </li>
+         <li class="rounded ">
+           <a data-toggle="tab" href="/students#tab-alumni-emba">
+             <i class="fa fa-user"></i>
+             EMBA</a>
+         </li>
+         <li class="rounded ">
+           <a data-toggle="tab" href="/students#tab-alumni-graduate">
+             <i class="fa fa-user"></i>
+             碩士班</a>
+         </li>
+       </ul>
 
-      </div>
-    </div>
+       <!--畢業EMBA 內容-->
+       <div class="tab-content" style="padding-top:15px;margin-top:30px;">
+           <div id="tab-alumni-emba" class="tab-pane  " style="height:500px;overflow-y:scroll;">
+             <div class="full-height-scroll">
+               <div class="table-responsive">
+                 <table class="table table-striped table-hover">
+                   <thead>
+                     <tr>
+                       <th>畢業編號</th>
+                     <th>畢業年度</th>
+                       <th>姓名</th>
+                       <th>論文題目</th>
+                       <!-- <th>聯絡方式</th> -->
+
+                     </tr>
+                   </thead>
+                   <tbody>
+                       <tr v-for="student in students" v-if="student.s_type==2 && student.status==1 ">
+                         <td>{{student.graduated_num}}</td>
+                         <td>{{student.degree}}</td>
+                         <td>{{student.name}}</td>
+                         <td>{{student.research_topic}}</td>
+                         <!-- <td>  <i class="fa fa-envelope"></i>{{student.email}}</td> -->
+                       </tr>
+                   </tbody>
+                 </table>
+               </div>
+             </div>
+           </div>
+
+           <!--畢業碩士 內容-->
+           <div id="tab-alumni-graduate" class="tab-pane" style="height:500px;overflow-y:scroll;">
+             <div class="full-height-scroll">
+               <div class="table-responsive">
+                 <table class="table table-striped table-hover">
+                   <thead>
+                     <tr>
+                       <th>畢業編號</th>
+                     <th>畢業年度</th>
+                       <th>姓名</th>
+                       <th>論文題目</th>
+                       <!-- <th>聯絡方式</th> -->
+
+                     </tr>
+                   </thead>
+                   <tbody>
+                       <tr v-for="student in students" v-if="student.s_type==4 && student.status==1 ">
+                         <td>{{student.graduated_num}}</td>
+                         <td>{{student.degree}}</td>
+                         <td>{{student.name}}</td>
+                         <td>{{student.research_topic}}</td>
+                         <!-- <td>  <i class="fa fa-envelope"></i>{{student.email}}</td> -->
+                       </tr>
+                   </tbody>
+                 </table>
+               </div>
+             </div>
+           </div>
+
+           <!--畢業博士 內容-->
+           <div id="tab-alumni-dr" class="tab-pane active ">
+             <div class="full-height-scroll">
+               <div class="table-responsive">
+                 <table class="table table-striped table-hover">
+                   <thead>
+                     <tr>
+                       <th>畢業編號</th>
+                     <th>畢業年度</th>
+                       <th>姓名</th>
+                       <th>論文題目</th>
+                       <!-- <th>聯絡方式</th> -->
+                     </tr>
+                   </thead>
+                   <tbody>
+                       <tr v-for="student in students" v-if="student.s_type==0 && student.status==1 ">
+                         <td>{{student.graduated_num}}</td>
+                         <td>{{student.degree}}</td>
+                         <td>{{student.name}}</td>
+                         <td>{{student.research_topic}}</td>
+                         <!-- <td>  <i class="fa fa-envelope"></i>{{student.email}}</td> -->
+                       </tr>
+                   </tbody>
+                 </table>
+               </div>
+             </div>
+	</div></div>
 
 
 
-</body>
+
+
+        <div class="footer ">
+          <div class="container section">
+             ©Copyright 2018 Software Engineering and Management Research Center 軟體工程與管理研究中心,all rights reserved.
+             <div class="text-right">
+                <a href="/sign_in">登入</a>
+             </div>
+
+          </div>
+        </div>
+
+
+
+    </body>
+
+    <script type="text/javascript">
+        new Vue({
+
+          el: '#studentList',
+
+          data: {
+            currentBranch: 'dev',
+            students: null
+          },
+
+          created: function () {
+            this.fetchData();
+          },
+
+          methods: {
+            fetchData: function () {
+                var self = this;
+                $.getJSON("/getStudents", function(result){
+                  console.log(result);
+                  self.students= result;
+                });
+            },
+
+          }
+        });
+
+    </script>
+
+
+
 
 </html>
