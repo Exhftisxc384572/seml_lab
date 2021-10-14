@@ -2706,7 +2706,7 @@ var students=[
   {
     "id": 211,
     "name": "謝宗翰",
-    "degree": 108,
+    "degree": 109,
     "s_type": 4,
     "research_topic": "軟體遊戲化機制對學習動機影響之研究",
     "status": 1,
@@ -2718,7 +2718,7 @@ var students=[
   {
     "id": 212,
     "name": "黃韋期",
-    "degree": 108,
+    "degree": 109,
     "s_type": 4,
     "research_topic": "程式設計課程之團隊程式碼審查流程與系統建置",
     "status": 1,
@@ -2730,7 +2730,7 @@ var students=[
   {
     "id": 213,
     "name": "蕭妤庭",
-    "degree": 108,
+    "degree": 109,
     "s_type": 4,
     "research_topic": "敏捷軟體專案績效影響因子之因果關係",
     "status": 1,
