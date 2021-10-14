@@ -3158,7 +3158,7 @@ var students=[
     "created_at": "2017-08-31 03:29:57.007",
     "updated_at": "2021-10-14 16:30:08.787",
     "graduated_num": 120
-  },
+  }
   
 
 ];
