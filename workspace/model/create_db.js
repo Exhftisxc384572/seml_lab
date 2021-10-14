@@ -2598,7 +2598,7 @@ var students=[
   {
     "id": 179,
     "name": "張元瀚",
-    "degree": 106,
+    "degree": 108,
     "s_type": 4,
     "research_topic": "室內定位技術於不同場域之評估研究",
     "status": 1,
@@ -2646,7 +2646,7 @@ var students=[
   {
     "id": 181,
     "name": "蔣曜安",
-    "degree": 107,
+    "degree": 108,
     "s_type": 4,
     "research_topic": "敏捷Scrum流程管理工具開發設計之研究",
     "status": 1,
@@ -2658,7 +2658,7 @@ var students=[
   {
     "id": 182,
     "name": "江秉叡",
-    "degree": 107,
+    "degree": 108,
     "s_type": 4,
     "research_topic": "合作學習教學輔助系統開發設計之研究",
     "status": 1,
@@ -2682,7 +2682,7 @@ var students=[
   {
     "id": 184,
     "name": "彭德馨",
-    "degree": 107,
+    "degree": 108,
     "s_type": 4,
     "research_topic": "使用者介面設計模式績效評估與選擇決策之研究",
     "status": 1,
@@ -2708,36 +2708,36 @@ var students=[
     "name": "謝宗翰",
     "degree": 108,
     "s_type": 4,
-    "research_topic": "修課與論文研究中",
-    "status": 0,
+    "research_topic": "軟體遊戲化機制對學習動機影響之研究",
+    "status": 1,
     "email": "M10609214@mail.ntust.edu.tw",
     "created_at": "2017-08-31 03:29:57.007",
     "updated_at": "2017-08-31 03:30:08.787",
-    "graduated_num": 0
+    "graduated_num": 77
   },
   {
     "id": 212,
     "name": "黃韋期",
     "degree": 108,
     "s_type": 4,
-    "research_topic": "修課與論文研究中",
-    "status": 0,
+    "research_topic": "程式設計課程之團隊程式碼審查流程與系統建置",
+    "status": 1,
     "email": "M10609205@mail.ntust.edu.tw",
     "created_at": "2017-08-31 03:29:57.007",
     "updated_at": "2017-08-31 03:30:08.787",
-    "graduated_num": 0
+    "graduated_num": 76
   },
   {
     "id": 213,
     "name": "蕭妤庭",
     "degree": 108,
     "s_type": 4,
-    "research_topic": "修課與論文研究中",
-    "status": 0,
+    "research_topic": "敏捷軟體專案績效影響因子之因果關係",
+    "status": 1,
     "email": "M10909217@mail.ntust.edu.tw",
     "created_at": "2017-08-31 03:29:57.007",
     "updated_at": "2017-08-31 03:30:08.787",
-    "graduated_num": 0
+    "graduated_num": 75
   },
   {
     "id": 215,
@@ -2942,7 +2942,225 @@ var students=[
     "created_at": "2017-08-31 03:29:57.007",
     "updated_at": "2017-08-31 03:30:08.787",
     "graduated_num": 0
-  }
+  },
+  {
+    "id": 217,
+    "name": "楊絮媛",
+    "degree": 110,
+    "s_type": 4,
+    "research_topic": "修課與論文研究中",
+    "status": 0,
+    "email": "M11009210@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2021-10-14 03:30:08.787",
+    "graduated_num": 0
+  },
+  {
+    "id": 218,
+    "name": "洪珮齡",
+    "degree": 110,
+    "s_type": 4,
+    "research_topic": "修課與論文研究中",
+    "status": 0,
+    "email": "M11009212@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2021-10-14 03:30:08.787",
+    "graduated_num": 0
+  },
+  {
+    "id": 219,
+    "name": "廖品鈞",
+    "degree": 110,
+    "s_type": 4,
+    "research_topic": "修課與論文研究中",
+    "status": 0,
+    "email": "M11009216@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2021-10-14 03:30:08.787",
+    "graduated_num": 0
+  },
+  {
+    "id": 220,
+    "name": "李昕宸",
+    "degree": 110,
+    "s_type": 4,
+    "research_topic": "修課與論文研究中",
+    "status": 0,
+    "email": "M11009213@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2021-10-14 03:30:08.787",
+    "graduated_num": 0
+  },
+  {
+    "id": 221,
+    "name": "張曉雯",
+    "degree": 109,
+    "s_type": 2,
+    "research_topic": "修課與論文研究中",
+    "status": 0,
+    "email": "M10909907@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2021-10-14 03:30:08.787",
+    "graduated_num": 0
+  },
+  {
+    "id": 222,
+    "name": "謝美娃",
+    "degree": 109,
+    "s_type": 2,
+    "research_topic": "修課與論文研究中",
+    "status": 0,
+    "email": "M10909925@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2021-10-14 03:30:08.787",
+    "graduated_num": 0
+  },
+  {
+    "id": 223,
+    "name": "李錫忠",
+    "degree": 109,
+    "s_type": 2,
+    "research_topic": "修課與論文研究中",
+    "status": 0,
+    "email": "M10909905@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2021-10-14 03:30:08.787",
+    "graduated_num": 0
+  },
+  {
+    "id": 224,
+    "name": "邱于珊",
+    "degree": 109,
+    "s_type": 2,
+    "research_topic": "修課與論文研究中",
+    "status": 0,
+    "email": "M10909918@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2021-10-14 03:30:08.787",
+    "graduated_num": 0
+  },
+  {
+    "id": 225,
+    "name": "蔡育旻",
+    "degree": 109,
+    "s_type": 2,
+    "research_topic": "修課與論文研究中",
+    "status": 0,
+    "email": "M10918915@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2021-10-14 03:30:08.787",
+    "graduated_num": 0
+  },
+  {
+    "id": 226,
+    "name": "林冠丞",
+    "degree": 109,
+    "s_type": 2,
+    "research_topic": "修課與論文研究中",
+    "status": 0,
+    "email": "M10918906@mail.ntust.edu.tw",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2021-10-14 03:30:08.787",
+    "graduated_num": 0
+  },
+  {
+    "id": 227,
+    "name": "王裕慧",
+    "degree": 109,
+    "s_type": 2,
+    "research_topic": "臺灣成功運用資訊科技防疫之典範",
+    "status": 1,
+    "email": " ",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2021-10-14 16:30:08.787",
+    "graduated_num": 113
+  },
+  {
+    "id": 228,
+    "name": "李科遂",
+    "degree": 109,
+    "s_type": 2,
+    "research_topic": "時尚產業中零廢棄品牌Story Wear的崛起",
+    "status": 1,
+    "email": " ",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2021-10-14 16:30:08.787",
+    "graduated_num": 114
+  },
+  {
+    "id": 229,
+    "name": "張國鴻",
+    "degree": 109,
+    "s_type": 2,
+    "research_topic": "捷運行控中心之組織轉型與資訊科技應用",
+    "status": 1,
+    "email": " ",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2021-10-14 16:30:08.787",
+    "graduated_num": 115
+  },
+  {
+    "id": 230,
+    "name": "郭詔旺",
+    "degree": 109,
+    "s_type": 2,
+    "research_topic": "行動支付發展策略 - 以個案銀行為例",
+    "status": 1,
+    "email": " ",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2021-10-14 16:30:08.787",
+    "graduated_num": 116
+  },
+  {
+    "id": 231,
+    "name": "陳振國",
+    "degree": 109,
+    "s_type": 2,
+    "research_topic": "OTT產業的衝擊 - 愛奇藝台灣站的應變決策",
+    "status": 1,
+    "email": " ",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2021-10-14 16:30:08.787",
+    "graduated_num": 117
+  },
+  {
+    "id": 232,
+    "name": "陳雅慧",
+    "degree": 109,
+    "s_type": 2,
+    "research_topic": "安碁資訊金融資安營運模式之策略探討",
+    "status": 1,
+    "email": " ",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2021-10-14 16:30:08.787",
+    "graduated_num": 118
+  },
+  {
+    "id": 233,
+    "name": "黃德昌",
+    "degree": 109,
+    "s_type": 2,
+    "research_topic": "從瀑布到敏捷",
+    "status": 1,
+    "email": " ",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2021-10-14 16:30:08.787",
+    "graduated_num": 119
+  },
+  {
+    "id": 234,
+    "name": "賴睿傑",
+    "degree": 109,
+    "s_type": 2,
+    "research_topic": "網路遊戲公司之企業變革與轉型",
+    "status": 1,
+    "email": " ",
+    "created_at": "2017-08-31 03:29:57.007",
+    "updated_at": "2021-10-14 16:30:08.787",
+    "graduated_num": 120
+  },
+  
+
 ];
 const setUpStudents = function(callback) {
     var client = new pg.Client(config.db);
